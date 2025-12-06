@@ -1,7 +1,8 @@
-![GitHub repo license](https://img.shields.io/badge/license-MIT-green?style=flat-square&logo=github)
-![Python version](https://img.shields.io/badge/python-3.10-blue?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-yes-brightgreen?style=flat-square&logo=streamlit)
-![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-red.svg)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen.svg)
+![Domains](https://img.shields.io/badge/Domain-Customer%20Churn%20%7C%20Telecom-blue.svg)
 
 # 📊 Telco Customer Churn Analytics & Prediction | Streamlit Dashboard
 
