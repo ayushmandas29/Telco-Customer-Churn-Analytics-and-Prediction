@@ -1,3 +1,8 @@
+![GitHub repo license](https://img.shields.io/badge/license-MIT-green?style=flat-square&logo=github)
+![Python version](https://img.shields.io/badge/python-3.10-blue?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-yes-brightgreen?style=flat-square&logo=streamlit)
+![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
+
 # 📊 Telco Customer Churn Analytics & Prediction | Streamlit Dashboard
 
 Live deployed ML dashboard for analyzing telecom customer churn and predicting whether a customer is likely to leave the service.
