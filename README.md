@@ -5,7 +5,6 @@ Live deployed ML dashboard for analyzing telecom customer churn and predicting w
 🔗 **Live App:**  
 https://telco-customer-churn-analytics-and-prediction-no2yxxrc4mnzgyun.streamlit.app/
 
----
 
 ## 🚀 What this project does
 - Visualizes churn patterns and key business KPIs
@@ -13,7 +12,7 @@ https://telco-customer-churn-analytics-and-prediction-no2yxxrc4mnzgyun.streamlit
 - Predicts churn likelihood using a trained ML model
 - Allows users to simulate “what-if” churn scenarios
 
----
+
 
 ## 🏗 Tech Stack
 | Category | Tools |
@@ -26,7 +25,7 @@ https://telco-customer-churn-analytics-and-prediction-no2yxxrc4mnzgyun.streamlit
 | Version Control | Git + GitHub |
 | Deployment | Streamlit Cloud |
 
----
+
 
 ## 📂 Project Structure
 Telco-Customer-Churn-Analytics-and-Prediction/
@@ -39,10 +38,6 @@ Telco-Customer-Churn-Analytics-and-Prediction/
 ├── requirements.txt
 └── README.md
 
-yaml
-Copy code
-
----
 
 ## 📌 Key Features
 ✔ KPI cards: churn rate, customer count, monthly charges  
@@ -83,6 +78,3 @@ Ayushman Das
 GitHub: https://github.com/ayushmandas29
 
 ⭐ If this project helped you, consider starring the repo!
-
-yaml
-Copy code
