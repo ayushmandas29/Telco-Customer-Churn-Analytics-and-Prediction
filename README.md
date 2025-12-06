@@ -1,162 +1,88 @@
-# 📊 Telco Customer Churn Analytics & Prediction (Streamlit Dashboard)
+# 📊 Telco Customer Churn Analytics & Prediction | Streamlit Dashboard
 
-An end-to-end **customer churn analytics and prediction** project built using  
-**Python, Machine Learning and an interactive Streamlit dashboard**, deployed on the cloud.
+Live deployed ML dashboard for analyzing telecom customer churn and predicting whether a customer is likely to leave the service.
 
----
-
-## 🚀 Live Demo
-
-🔗 **Streamlit App:**  
+🔗 **Live App:**  
 https://telco-customer-churn-analytics-and-prediction-no2yxxrc4mnzgyun.streamlit.app/
 
-You can open this link in any browser and use the dashboard without installing anything.
-
 ---
 
-## 🧠 Project Overview
-
-Telecom companies lose money when customers **churn** (leave the service).  
-This project simulates a real telecom scenario:
-
-- Cleans and processes telco customer data  
-- Analyzes patterns related to churn (tenure, contract, charges, etc.)  
-- Trains a Machine Learning model to predict if a customer will churn  
-- Exposes insights and predictions through a **web dashboard** built in Streamlit  
-
-This is designed as a **portfolio / industry-style project**, not just a basic assignment.
+## 🚀 What this project does
+- Visualizes churn patterns and key business KPIs
+- Shows customer segments most likely to churn
+- Predicts churn likelihood using a trained ML model
+- Allows users to simulate “what-if” churn scenarios
 
 ---
 
 ## 🏗 Tech Stack
-
-- **Language:** Python  
-- **Data / ML:** Pandas, NumPy, Scikit-learn  
-- **Visualization:** Plotly, Matplotlib / Seaborn  
-- **App / UI:** Streamlit  
-- **Version Control:** Git & GitHub  
-- **Deployment:** Streamlit Community Cloud  
+| Category | Tools |
+|---------|-------|
+| Language | Python |
+| ML | Scikit-Learn |
+| Data | Pandas, NumPy |
+| Visualization | Plotly |
+| Dashboard | Streamlit |
+| Version Control | Git + GitHub |
+| Deployment | Streamlit Cloud |
 
 ---
 
-## 📁 Project Structure
-
-```bash
+## 📂 Project Structure
 Telco-Customer-Churn-Analytics-and-Prediction/
+│
 ├── dashboard/
-│   └── app.py                     # Main Streamlit dashboard
+│ └── app.py # Streamlit dashboard
 ├── data/
-│   └── processed/
-│       └── telco_churn_clean.csv  # Cleaned dataset used by the app
-├── reports/
-│   └── figures/                   # Plots / figures (optional)
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
+│ └── processed/
+│ └── telco_churn_clean.csv
+├── requirements.txt
+└── README.md
 
-✨ Key Features
+yaml
+Copy code
 
-📈 KPIs & Summary
+---
 
-Total customers
+## 📌 Key Features
+✔ KPI cards: churn rate, customer count, monthly charges  
+✔ Interactive filters (gender, contract type, tenure, etc.)  
+✔ Visual insights using Plotly charts  
+✔ Churn prediction form powered by trained ML model  
+✔ Fully deployed and accessible via browser — no installation required
 
-Overall churn rate
+---
 
-Average monthly charges
+## 🔄 Machine Learning (high-level overview)
+- Encoded categorical variables and cleaned telecom dataset
+- Train/test split performed
+- Random Forest model trained for churn classification
+- Evaluated using accuracy, F1-score and confusion matrix
 
-📊 Interactive Analytics
+---
 
-Churn by contract type
-
-Churn vs tenure
-
-Churn vs monthly charges
-
-Filterable customer records
-
-🤖 Churn Prediction (What-if)
-
-Simple form where you enter customer details (tenure, internet, contract, charges, etc.)
-
-ML model predicts whether the customer is likely to churn or not
-
-🌐 Deployed Dashboard
-
-Hosted on Streamlit Cloud
-
-Can be accessed from any device with a browser
-
-🔄 Machine Learning (High Level)
-
-Data Cleaning & Preprocessing
-
-Handle missing values
-
-Convert categorical variables to numeric encodings
-
-Ensure correct data types for numeric columns
-
-Train / Test Split
-
-Split data into training and test sets
-
-Model
-
-Train a classification model (e.g. Random Forest)
-
-Evaluate using accuracy, F1-score, classification report, confusion matrix
-
-Integration with Dashboard
-
-The trained model is integrated into the Streamlit app
-
-User input from the UI is passed to the model for prediction
-
-💻 How to Run Locally
-1️⃣ Clone this repo
+## 💻 Run Locally (for developers)
+```bash
 git clone https://github.com/ayushmandas29/Telco-Customer-Churn-Analytics-and-Prediction.git
 cd Telco-Customer-Churn-Analytics-and-Prediction
-
-2️⃣ (Optional) Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate   # On Windows
-# source venv/bin/activate  # On macOS/Linux
-
-3️⃣ Install dependencies
 pip install -r requirements.txt
-
-4️⃣ Run the Streamlit app
 streamlit run dashboard/app.py
+🔧 Future Enhancements (roadmap)
+Add PostgreSQL database integration for storing customer records
 
+Improve churn prediction with multiple ML models (XGBoost, Logistic Regression)
 
-Open the URL shown in the terminal (usually http://localhost:8501).
+Add SHAP explainability for feature impact analysis
 
-🚀 Deployment
+Add authentication / user login
 
-The app is deployed using Streamlit Community Cloud:
-
-Code is hosted on GitHub
-
-Streamlit pulls this repo and runs dashboard/app.py
-
-requirements.txt is used to install dependencies on the server
-
-Any future git push to main can trigger a new deployment.
-
-📌 Future Improvements
-
-Compare multiple ML models (Logistic Regression, XGBoost, etc.)
-
-Add model explainability (feature importance / SHAP)
-
-Store customer data and predictions in a real database (PostgreSQL)
-
-Add authentication / login for internal dashboards
-
-Build a Power BI version of the same churn analysis
+Power BI integration for BI reporting
 
 👤 Author
-
 Ayushman Das
-GitHub: @ayushmandas29
+GitHub: https://github.com/ayushmandas29
 
-If you find this useful, feel free to ⭐ star the repo!
+⭐ If this project helped you, consider starring the repo!
+
+yaml
+Copy code
